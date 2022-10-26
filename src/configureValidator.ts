@@ -11,7 +11,7 @@ let destination = '../../'
 
 const args = require('minimist')(process.argv.slice(2))
 
-let destinationPath = 'validation-service-fhir-r4/src/main/resources';
+let destinationPath = 'validation-service-fhir-stu3/src/main/resources';
 
 
 var ontoServer: string = 'https://ontology.nhs.uk/authoring/fhir/'

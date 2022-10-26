@@ -1,13 +1,13 @@
 import axios from "axios";
-import {OperationOutcome, OperationOutcomeIssue, Patient} from "fhir/r4";
 import fs from "fs";
 import path from "path";
+import {OperationOutcome, OperationOutcomeIssue} from "fhir/r3";
 
 export const basePath = "/FHIR/R4"
 
 var Fhir = require('fhir').Fhir;
 
-export let defaultBaseUrl = 'http://localhost:9001/FHIR/R4';
+export let defaultBaseUrl = 'http://localhost:9006/FHIR/STU3';
 
 
 export async function validate(resource,contentType ) {

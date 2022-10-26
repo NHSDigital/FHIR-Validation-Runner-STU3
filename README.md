@@ -1,10 +1,10 @@
 # IOPS-Validation
 
 
-This is a typescript module used to test HL7 FHIR resources using [validation-service-fhir-r4](https://github.com/NHSDigital/validation-service-fhir-r4)
+This is a typescript module used to test HL7 FHIR resources using [validation-service-fhir-stu3](https://github.com/NHSDigital/validation-service-fhir-stu3)
 The configuration and setup of this service is not covered here.
 
-Current status of **validation-service-fhir-r4** 
+Current status of **validation-service-fhir-stu3** 
 
 
 [![NHSDigital IOPS Validation)](https://github.com/NHSDigital/IOPS-Validation/actions/workflows/testingbranch.yml/badge.svg)](https://github.com/NHSDigital/IOPS-Validation/actions/workflows/testingbranch.yml)
@@ -13,7 +13,7 @@ Current status of **validation-service-fhir-r4**
 
 Install [node-js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
-Running instance of the `validation-service-fhir-r4`
+Running instance of the `validation-service-fhir-stu3`
 
 ## Tests
 
